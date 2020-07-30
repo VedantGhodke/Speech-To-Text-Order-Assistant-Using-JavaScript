@@ -1,4 +1,4 @@
-# Speech To Text Order Assist [Proposal]
+# Speech To Text Order Assistant Using JavaScript
 ## Table of Contents 
 
 - [Summary](#Summary)
@@ -25,7 +25,9 @@ Dialog annotations are based on the API calls associated with each type of task-
 The ontology.json can act as a reference to validate the invoice generated in the end. However, this doesnot validate intent classification. We are looking at various APIs that would help us test the intent classifications in further steps.<br />
 
 ## Proposed plan of research:
+
 The Quick Service Restaurant (QSR) Assist will have the following key functionalities:
+
 ### Flow Diagram
 ![Flow-diagram](/images/Flow-diagram.png)
 We plan to create end to end software that would record conversation to take order and create invoice by processing the order based on the conversation.
@@ -90,7 +92,7 @@ Can you swap the burge for a cheese pizza | 0.987 | Update
 I would like to get a coffee too | 0.9744 | Add
 That would be all | 0.70 | End
 
-The GOOGLE NLP API was tested to get the intent and objects from some text orders. Here are those examples:
+The Google NLP API was tested to get the intent and objects from some text orders. Here are those examples:
 * ”One Burger and Two Fries”
 ```json
 {
