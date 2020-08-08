@@ -1,0 +1,320 @@
+{
+    "data": [
+        {
+            "text": "Please order me a burger and some fries",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                }
+            ]
+        },
+        {
+            "text": "Modify my order please",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Update\""
+                }
+            ]
+        },
+        {
+            "text": "Remove the burger from my order",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Delete\""
+                }
+            ]
+        },
+        {
+            "text": "Change my burger for a pizza",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Update\""
+                }
+            ]
+        },
+        {
+            "text": "I want to order 5 cheese burgers and 1 pizza",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                },
+                {
+                    "entity": "quantity",
+                    "value": "\"5\"",
+                    "start": 16,
+                    "end": 17
+                },
+                {
+                    "entity": "item",
+                    "value": "\"cheese burgers\"",
+                    "start": 18,
+                    "end": 32
+                },
+                {
+                    "entity": "quantity",
+                    "value": "\"1\"",
+                    "start": 37,
+                    "end": 39
+                },
+                {
+                    "entity": "item",
+                    "value": "\"pizza\"",
+                    "start": 39,
+                    "end": 44
+                }
+            ]
+        },
+        {
+            "text": "remove 5 burgers",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Delete\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"burgers\"",
+                    "start": 9,
+                    "end": 16
+                }
+            ]
+        },
+        {
+            "text": "add 4 burgers and remove my pizza from the order",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Delete\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"burgers\"",
+                    "start": 6,
+                    "end": 13
+                },
+                {
+                    "entity": "item",
+                    "value": "\"pizza\"",
+                    "start": 28,
+                    "end": 33
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                }
+            ]
+        },
+        {
+            "text": "Hi, can i order 5 fries and a coke please",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"fries\"",
+                    "start": 17,
+                    "end": 23
+                },
+                {
+                    "entity": "item",
+                    "value": "\"coke\"",
+                    "start": 30,
+                    "end": 34
+                },
+                {
+                    "entity": "quantity",
+                    "value": "\"5\"",
+                    "start": 15,
+                    "end": 17
+                }
+            ]
+        },
+        {
+            "text": "Hello, i would like to order 5 pizzas ",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"pizza\"",
+                    "start": 31,
+                    "end": 36
+                },
+                {
+                    "entity": "quantity",
+                    "value": "\"5\"",
+                    "start": 29,
+                    "end": 30
+                }
+            ]
+        },
+        {
+            "text": "please remove the 2 pizza from my previous order",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Delete\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"pizza\"",
+                    "start": 20,
+                    "end": 25
+                },
+                {
+                    "entity": "quantity",
+                    "value": "\"2\"",
+                    "start": 17,
+                    "end": 19
+                }
+            ]
+        },
+        {
+            "text": "hello, can you get me a coffee, and 2 ice coffees",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"coffee\"",
+                    "start": 24,
+                    "end": 30
+                }
+            ]
+        },
+        {
+            "text": "can i order 5 coffees",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"coffee\"",
+                    "start": 14,
+                    "end": 20
+                },
+                {
+                    "entity": "quantity",
+                    "value": "\"5\"",
+                    "start": 12,
+                    "end": 13
+                }
+            ]
+        },
+        {
+            "text": "Please remove the burger from my order",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Delete\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"burger\"",
+                    "start": 18,
+                    "end": 24
+                }
+            ]
+        },
+        {
+            "text": "Can you swap the burger for a cheese pizza",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Update\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"cheese pizza\"",
+                    "start": 37,
+                    "end": 42
+                }
+            ]
+        },
+        {
+            "text": "Please remove the burger from my order ",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Delete\""
+                },
+                {
+                    "entity": "item",
+                    "value": "\"burger\"",
+                    "start": 18,
+                    "end": 24
+                }
+            ]
+        },
+        {
+            "text": "Add 3 Quesadilla",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                }
+            ]
+        },
+        {
+            "text": "Add 3 Quesadilla   ",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                }
+            ]
+        },
+        {
+            "text": "Can i get a sandwich",
+            "entities": [
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                }
+            ]
+        },
+        {
+            "text": "Please cancel my last order which was a burger",
+            "entities": [
+                {
+                    "entity": "item",
+                    "value": "\"burger\"",
+                    "start": 40,
+                    "end": 46
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"Delete\""
+                }
+            ]
+        },
+        {
+            "text": "I want a pizza",
+            "entities": [
+                {
+                    "entity": "item",
+                    "value": "\"pizza\"",
+                    "start": 9,
+                    "end": 14
+                },
+                {
+                    "entity": "intent",
+                    "value": "\"Add\""
+                }
+            ]
+        }
+    ]
+}
